@@ -1,3 +1,10 @@
+<h1 align="center"> Luis García Pérez
+<p align="center">
+  <!--<a href="[URL WEBSITE]">Website</a>-->
+  <a href="[www.linkedin.com/in/luisgarciaperezcc00]">LinkedIn</a>
+</p>
+
+
 - 👋 Hi, I’m Luis (@luisgarciaperez)
 - 👀 I’m interested in AI, ML and Sound Engineering
 - 🌱 I’m currently learning business analytics and AI
