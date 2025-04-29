@@ -1,51 +1,153 @@
-<h1 align="center">Hi 👋, I'm Luis</h1>
-<h3 align="center">Sound and Image engineer | Big Data & AI specialist</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=luisgarciaperez&label=Profile%20views&color=0e75b6&style=flat" alt="luisgarciaperez" /> </p>
+<!-- ──────────────────────────────────────────────────── -->
+<style>
+  /* Container */
+  .profile-container {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    color: #333;
+    line-height: 1.6;
+  }
+  /* Section titles */
+  .profile-section h2 {
+    border-bottom: 2px solid #1f6feb;
+    padding-bottom: 0.3em;
+    margin-top: 2em;
+    color: #1f6feb;
+  }
+  /* Lists */
+  .profile-list {
+    list-style: none;
+    padding: 0;
+  }
+  .profile-list li {
+    margin-bottom: 0.5em;
+    padding-left: 1.2em;
+    position: relative;
+  }
+  .profile-list li:before {
+    content: "►";
+    position: absolute;
+    left: 0;
+    color: #1f6feb;
+  }
+  /* Education & experience rows */
+  .profile-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+  }
+  .profile-row .institution {
+    font-weight: 600;
+  }
+  .profile-row .dates {
+    color: #666;
+  }
+  /* Skills grid */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1em;
+  }
+  .skill-category {
+    background: #f6f8fa;
+    padding: 1em;
+    border-radius: 6px;
+  }
+  .skill-category h4 {
+    margin-top: 0;
+    color: #1f6feb;
+  }
+</style>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/www.linkedin.com/in/luisgarciaperezcc00" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/luisgarciaperezcc00" height="30" width="40" /></a>
-</p>
+<div class="profile-container">
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> 
-<a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> 
-<a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> 
+  <!-- PROFESSIONAL SUMMARY -->
+  <div class="profile-section">
+    <h2>Professional Summary</h2>
+    <p>
+      Sound &amp; Image engineer with a strong interest in emerging technology trends (Machine Learning, AI, Cloud…). 
+      Versatile and adaptable, applying a multidisciplinary approach to projects by combining technical knowledge, creativity, and Design Thinking. 
+      Seeking a junior role in Data Science.
+    </p>
+    <p>
+      Eager to work both independently and within teams. Background in telecommunications (physics, mathematics, statistics, programming, signal processing, computer science), 
+      with a specialization in digital sound processing, auralization, video systems, noise control, and sound design.
+    </p>
+  </div>
 
-<a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> 
+  <!-- EDUCATION -->
+  <div class="profile-section">
+    <h2>Education</h2>
+    <div class="profile-row">
+      <span class="institution">Universidad Carlos III de Madrid</span>
+      <span class="dates">Sep 2018 – Mar 2024</span>
+    </div>
+    <p>BSc in Sound and Image Engineering</p>
+    <div class="profile-row">
+      <span class="institution">IE University</span>
+      <span class="dates">Apr 2024 – Mar 2025</span>
+    </div>
+    <p>MSc in Business Analytics &amp; Data Science<br>
+      <em>Concentration:</em> Advanced AI<br>
+      <em>Advanced Tech Track Program</em>
+    </p>
+  </div>
 
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
+  <!-- PROFESSIONAL EXPERIENCE -->
+  <div class="profile-section">
+    <h2>Professional Experience</h2>
+    <div class="profile-row">
+      <span class="institution">Deloitte (Intern – Communication)</span>
+      <span class="dates">Nov 2022 – Jun 2023</span>
+    </div>
+    <ul class="profile-list">
+      <li>Produced, composed, edited, and mixed music and sound for internal audiovisuals.</li>
+      <li>Provided technical supervision for live streaming events.</li>
+    </ul>
+  </div>
 
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
+  <!-- LANGUAGES -->
+  <div class="profile-section">
+    <h2>Languages</h2>
+    <ul class="profile-list">
+      <li>English (C2)</li>
+      <li>Spanish (Native)</li>
+      <li>German (A1)</li>
+    </ul>
+  </div>
 
-<a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> 
+  <!-- TECHNICAL SKILLS -->
+  <div class="profile-section">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h4>Data Science &amp; AI</h4>
+        <p>Python, scikit-learn, Skforecast, PyTorch, TensorFlow, Streamlit, Tableau, Looker</p>
+      </div>
+      <div class="skill-category">
+        <h4>Cloud &amp; Data</h4>
+        <p>AWS, Azure, SQL, NiFi, HDFS, Spark</p>
+      </div>
+      <div class="skill-category">
+        <h4>Development</h4>
+        <p>Git, HTML, CSS, React, Xcode, Android Studio, Swift, Java</p>
+      </div>
+      <div class="skill-category">
+        <h4>Audio &amp; Video</h4>
+        <p>MATLAB, Logic Pro X, Final Cut Pro, EASE 4.0</p>
+      </div>
+    </div>
+  </div>
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
+  <!-- OTHER INFORMATION -->
+  <div class="profile-section">
+    <h2>Other Interests</h2>
+    <ul class="profile-list">
+      <li>18+ years of piano study</li>
+      <li>Enthusiast of music, film, TV, and sports</li>
+    </ul>
+  </div>
 
-<a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> 
-
-<a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> 
-
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> 
-
-<a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> 
-
-<a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> 
-
-<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
-
-<a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> 
-
-<a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> 
-
-<a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> 
-
-<a href="https://unrealengine.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/kenangundogan/fontisto/036b7eca71aab1bef8e6a0518f7329f13ed62f6b/icons/svg/brand/unreal-engine.svg" alt="unreal" width="40" height="40"/> </a> 
-
-</p>
-
-<!---
-luisgarciaperez/luisgarciaperez is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+</div>
