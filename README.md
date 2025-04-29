@@ -1,153 +1,138 @@
-
 <!-- ──────────────────────────────────────────────────── -->
 <style>
-  /* Container */
   .profile-container {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    max-width: 800px;
-    margin: auto;
-    color: #333;
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: linear-gradient(145deg, #f0f4ff, #ffffff);
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    color: #1a1a1a;
     line-height: 1.6;
   }
-  /* Section titles */
-  .profile-section h2 {
-    border-bottom: 2px solid #1f6feb;
-    padding-bottom: 0.3em;
-    margin-top: 2em;
+  .profile-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .profile-header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    background: -webkit-linear-gradient(45deg, #1f6feb, #ff5e62);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .profile-header p {
+    margin: 0.5rem 0 0;
+    font-style: italic;
+    color: #555;
+  }
+  .skill-badge {
+    display: inline-block;
+    margin: 0.3rem;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    background: #e6f0ff;
+    background-image: linear-gradient(135deg, rgba(255,94,98,0.1), rgba(31,111,235,0.1));
     color: #1f6feb;
+    transition: transform 0.2s ease;
   }
-  /* Lists */
-  .profile-list {
-    list-style: none;
-    padding: 0;
+  .skill-badge:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(135deg, rgba(255,94,98,0.2), rgba(31,111,235,0.2));
   }
-  .profile-list li {
-    margin-bottom: 0.5em;
-    padding-left: 1.2em;
+  .section {
+    margin-bottom: 2rem;
+  }
+  .section h2 {
     position: relative;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
   }
-  .profile-list li:before {
-    content: "►";
+  .section h2:after {
+    content: "";
     position: absolute;
+    bottom: 0;
     left: 0;
-    color: #1f6feb;
+    width: 3rem;
+    height: 3px;
+    background: linear-gradient(90deg, #ff5e62, #1f6feb);
   }
-  /* Education & experience rows */
-  .profile-row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0.5em;
-  }
-  .profile-row .institution {
-    font-weight: 600;
-  }
-  .profile-row .dates {
-    color: #666;
-  }
-  /* Skills grid */
   .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
   }
   .skill-category {
-    background: #f6f8fa;
-    padding: 1em;
-    border-radius: 6px;
+    padding: 1rem;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    transition: box-shadow 0.2s ease;
   }
-  .skill-category h4 {
+  .skill-category:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  }
+  .skill-category h3 {
     margin-top: 0;
-    color: #1f6feb;
+    font-size: 1.1rem;
+    color: #ff5e62;
+  }
+  .skill-category p {
+    margin: 0.5rem 0 0;
+    font-size: 0.9rem;
   }
 </style>
 
 <div class="profile-container">
 
-  <!-- PROFESSIONAL SUMMARY -->
-  <div class="profile-section">
-    <h2>Professional Summary</h2>
+  <div class="profile-header">
+    <h1>Data &amp; AI Enthusiast</h1>
+    <p>Specialized in ML, Cloud &amp; Full-Stack Prototyping</p>
+  </div>
+
+  <div class="section">
+    <h2>Core Strengths</h2>
     <p>
-      Sound &amp; Image engineer with a strong interest in emerging technology trends (Machine Learning, AI, Cloud…). 
-      Versatile and adaptable, applying a multidisciplinary approach to projects by combining technical knowledge, creativity, and Design Thinking. 
-      Seeking a junior role in Data Science.
-    </p>
-    <p>
-      Eager to work both independently and within teams. Background in telecommunications (physics, mathematics, statistics, programming, signal processing, computer science), 
-      with a specialization in digital sound processing, auralization, video systems, noise control, and sound design.
+      Multidisciplinary engineer with hands-on expertise in data modeling, machine learning pipelines, cloud architectures, and UI/UX prototyping. 
+      Expert at translating open-ended challenges into scalable, production-ready solutions.
     </p>
   </div>
 
-  <!-- EDUCATION -->
-  <div class="profile-section">
-    <h2>Education</h2>
-    <div class="profile-row">
-      <span class="institution">Universidad Carlos III de Madrid</span>
-      <span class="dates">Sep 2018 – Mar 2024</span>
-    </div>
-    <p>BSc in Sound and Image Engineering</p>
-    <div class="profile-row">
-      <span class="institution">IE University</span>
-      <span class="dates">Apr 2024 – Mar 2025</span>
-    </div>
-    <p>MSc in Business Analytics &amp; Data Science<br>
-      <em>Concentration:</em> Advanced AI<br>
-      <em>Advanced Tech Track Program</em>
-    </p>
-  </div>
-
-  <!-- PROFESSIONAL EXPERIENCE -->
-  <div class="profile-section">
-    <h2>Professional Experience</h2>
-    <div class="profile-row">
-      <span class="institution">Deloitte (Intern – Communication)</span>
-      <span class="dates">Nov 2022 – Jun 2023</span>
-    </div>
-    <ul class="profile-list">
-      <li>Produced, composed, edited, and mixed music and sound for internal audiovisuals.</li>
-      <li>Provided technical supervision for live streaming events.</li>
-    </ul>
-  </div>
-
-  <!-- LANGUAGES -->
-  <div class="profile-section">
-    <h2>Languages</h2>
-    <ul class="profile-list">
-      <li>English (C2)</li>
-      <li>Spanish (Native)</li>
-      <li>German (A1)</li>
-    </ul>
-  </div>
-
-  <!-- TECHNICAL SKILLS -->
-  <div class="profile-section">
-    <h2>Technical Skills</h2>
+  <div class="section">
+    <h2>Highlighted Skills</h2>
     <div class="skills-grid">
       <div class="skill-category">
-        <h4>Data Science &amp; AI</h4>
-        <p>Python, scikit-learn, Skforecast, PyTorch, TensorFlow, Streamlit, Tableau, Looker</p>
+        <h3>Data Science &amp; AI</h3>
+        <p>Python • scikit-learn • TensorFlow • PyTorch • Streamlit</p>
       </div>
       <div class="skill-category">
-        <h4>Cloud &amp; Data</h4>
-        <p>AWS, Azure, SQL, NiFi, HDFS, Spark</p>
+        <h3>Data Platforms</h3>
+        <p>AWS • Azure • SQL • Spark • NiFi • HDFS</p>
       </div>
       <div class="skill-category">
-        <h4>Development</h4>
-        <p>Git, HTML, CSS, React, Xcode, Android Studio, Swift, Java</p>
+        <h3>Web &amp; Frontend</h3>
+        <p>JavaScript • TypeScript • React • HTML &amp; CSS</p>
       </div>
       <div class="skill-category">
-        <h4>Audio &amp; Video</h4>
-        <p>MATLAB, Logic Pro X, Final Cut Pro, EASE 4.0</p>
+        <h3>Infra &amp; DevOps</h3>
+        <p>Docker • Kubernetes • Terraform • GitHub Actions</p>
+      </div>
+      <div class="skill-category">
+        <h3>Audio &amp; Video</h3>
+        <p>MATLAB • Logic Pro X • Final Cut Pro</p>
       </div>
     </div>
   </div>
 
-  <!-- OTHER INFORMATION -->
-  <div class="profile-section">
-    <h2>Other Interests</h2>
-    <ul class="profile-list">
-      <li>18+ years of piano study</li>
-      <li>Enthusiast of music, film, TV, and sports</li>
-    </ul>
+  <div class="section">
+    <h2>Language Proficiency</h2>
+    <p>
+      <span class="skill-badge">Spanish (Native)</span>
+      <span class="skill-badge">English (C2)</span>
+      <span class="skill-badge">German (A1)</span>
+    </p>
   </div>
 
 </div>
