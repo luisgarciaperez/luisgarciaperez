@@ -45,4 +45,4 @@ I’ve been playing piano for over 18 years — I love blending technical skill 
 
 ---
 
-📫 Feel free to check out my projects below — and thanks for stopping by!
+📫 Feel free to check out my projects — and thanks for stopping by!
